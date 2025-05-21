@@ -9,7 +9,6 @@ warnings.filterwarnings('ignore')
 
 import matplotlib.pyplot as plt
 
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 from source.experiment import experiment
 from source.loader import loader
 from source.metric import grmse, gprecision, gndcg
