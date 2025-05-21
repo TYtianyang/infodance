@@ -5,7 +5,6 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 from source.model import PMF, NCF
 from source.metric import \
     rmse, precision, recall, f_score, ndcg, \
