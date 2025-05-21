@@ -1,5 +1,7 @@
 # Accuracy, Fairness, Diversity All at Once: An Influence Function Guided Data Enhancement Approach for Recommender System
 
+This repository contains the code and dataset for our paper: **"Accuracy, Fairness, Diversity All at Once: An Influence Function Guided Data Enhancement Approach for Recommender System"**.
+
 ![image](https://github.com/user-attachments/assets/60423b26-4d79-4f7d-9894-56d1f6dcaae1)
 
 ## Abstract
