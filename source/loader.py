@@ -1,7 +1,6 @@
 import torch
 import tqdm
 import os
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 
 # %% loader 
 class loader():
