@@ -5,7 +5,6 @@ import tqdm
 import time
 from functorch import make_functional_with_buffers, vmap, grad
 
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 from source.model import PMF, NCF
 
 # %% influence: influence function module
