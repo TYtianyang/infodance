@@ -8,7 +8,6 @@ import warnings
 import recsys_metrics
 warnings.filterwarnings('ignore')
 
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 from source.baseline import \
     baseline_raw, \
     baseline_ekstrand, \
