@@ -11,7 +11,6 @@ warnings.filterwarnings('ignore')
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 from source.experiment import experiment
 pd.set_option('display.max_columns', None)
             
