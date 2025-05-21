@@ -11,7 +11,7 @@ import torch
 torch.manual_seed(2023)
 
 warnings.filterwarnings("ignore")
-os.chdir('/home/u9/tianyangxie/Documents/cf/data')
+os.chdir('data/')
 print('What splitting strategy you want to use?(global_temporal, user_temporal)')
 split_strategy = input()
 
