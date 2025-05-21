@@ -7,4 +7,53 @@ Recommender systems play a pivotal role in curating high-quality content for use
 
 ![image](https://github.com/user-attachments/assets/60423b26-4d79-4f7d-9894-56d1f6dcaae1)
 
+## Download Datasets
+Please first download the datasets in the corresponding folders.
+- [[Movielens 1M](https://grouplens.org/datasets/movielens/1m/)] (`data/ml-1m/`);
+- [[LastFM 1K](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)] (`data/lastfm-dataset-1K/`) .
+
+## Preprocess Datasets
+```bash
+python source/preprocess.py
+```
+
+## Run Main Experiments
+Run the main experiments and create result tables.
+```bash
+python 1_main_run.py
+```
+Compose aggregated result tables.
+```bash
+python 1_main_summary.py
+```
+
+## Visualize Trajectories & Conduct Demographic-wise Studies
+Collet results.
+```bash
+python 2_inference_run.py
+```
+Visualization and aggregate results.
+```bash
+python 2_inference_summary.py
+```
+Some post processing.
+```bash
+python 2_inference_misc.py
+```
+
+## Motivate Studies By Introducing Sparsity
+```bash
+python 3_motivation.py
+```
+
+## Run Baselines
+Run the main experiments for baseline methods.
+```bash
+python 4_baseline.py
+```
+Aggregate results.
+```bash
+python 4_baseline_summary.py
+```
+
 
