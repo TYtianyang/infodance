@@ -2,9 +2,9 @@
 
 This repository contains the code and dataset for our paper: **"Accuracy, Fairness, Diversity All at Once: An Influence Function Guided Data Enhancement Approach for Recommender System"**.
 
-![image](https://github.com/user-attachments/assets/60423b26-4d79-4f7d-9894-56d1f6dcaae1)
-
 ## Abstract
 Recommender systems play a pivotal role in curating high-quality content for users, predominantly leveraging data-driven algorithms and machine learning methodologies. However, the intrinsic data-centric nature of these systems raises critical concerns; biased datasets and algorithms can inadvertently propagate biases to end-users. Furthermore, machine learning techniques, while powerful, can overfit a user's preference, leading to a monotonous stream of content suggestions. Both the CS and IS community have well-recognized the need of fairness and diversity in recommender systems and many studies are proposed to mitigate these challenges. Yet, a tangible solution that holistically addressed all three components—accuracy, fairness, and diversity—in unison remains elusive. This paper aims to bridge this gap, introducing a novel Influence-function-guided, Fair, and Diverse Data Enhancement (InFoDance) approach that enhances all three perspectives simultaneously.  It consists of four interconnected modules: model training, candidate data generation, influence function-based candidate evaluation, and virtual data selection. It iteratively generates virtual data to update the trained recommender system. The empirical evaluation has shown that our approach can improve accuracy, fairness, and diversity by up to 24.27%, 55.29%, and 1.85% simultaneously and significantly outperform the state-of-the-art baselines on multiple evaluation metrics. 
+
+![image](https://github.com/user-attachments/assets/60423b26-4d79-4f7d-9894-56d1f6dcaae1)
 
 
