@@ -1,7 +1,6 @@
 import torch
 import tqdm
 import os
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 
 # %% trainer: training the model
 class trainer():
