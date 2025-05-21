@@ -7,7 +7,6 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 
-os.chdir('/home/u9/tianyangxie/Documents/cf')
 from source.model import PMF, NCF
 from source.metric import \
     rmse, precision, recall, f_score, ndcg, \
